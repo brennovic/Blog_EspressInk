@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artigo - ExpressInk</title>
+    <meta name="description" content="Leia este artigo no ExpressInk" />
+    <meta name="author" content="ExpressInk" />
+    <meta property="og:image" content="/og-image.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+  </head>
+
+  <body>
+    <div class="app-container">
+      <header class="navbar">
+        <div class="navbar-container">
+          <a href="index.html" class="logo">Express<span>Ink</span></a>
+          <nav class="nav-links">
+            <a href="index.html" class="nav-link">Início</a>
+            <a href="articles.html" class="nav-link">Artigos</a>
+            <a href="about.html" class="nav-link">Sobre</a>
+          </nav>
+          <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </header>
+
+      <main>
+        <div class="article-container">
+          <div class="article-header">
+            <div class="container">
+              <a href="/" class="back-link">
+                <i class="fas fa-arrow-left"></i> Voltar para a página inicial
+              </a>
+              
+              <div class="article-header-content">
+                <span class="badge" id="article-category">Categoria</span>
+                <h1 class="article-title" id="article-title">Título do Artigo</h1>
+                
+                <div class="article-meta">
+                  <div class="meta-item">
+                    <i class="fas fa-user"></i>
+                    <span id="article-author">Nome do Autor</span>
+                  </div>
+                  <div class="meta-item">
+                    <i class="fas fa-calendar"></i>
+                    <span id="article-date">Data de Publicação</span>
+                  </div>
+                  <div class="meta-item">
+                    <i class="fas fa-clock"></i>
+                    <span id="article-read-time">Tempo de Leitura</span>
+                  </div>
+                </div>
+                
+                <div class="article-author-bar">
+                  <div class="author-info">
+                    <div class="author-avatar">
+                      <img id="author-avatar" src="https://via.placeholder.com/40" alt="Avatar do autor">
+                    </div>
+                    <div class="author-details">
+                      <p class="author-name" id="author-name">Nome do Autor</p>
+                      <p class="author-role">Autor</p>
+                    </div>
+                  </div>
+                  
+                  <div class="article-actions">
+                    <button class="action-btn">
+                      <i class="fas fa-bookmark"></i>
+                    </button>
+                    <button class="action-btn">
+                      <i class="fas fa-share-alt"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="article-featured-image">
+            <img id="article-cover" src="https://via.placeholder.com/1200x600" alt="Imagem do artigo">
+          </div>
+          
+          <div class="article-content-wrapper">
+            <div class="container">
+              <div class="article-content" id="article-content">
+                <!-- Article content will be loaded here by JavaScript -->
+              </div>
+            </div>
+          </div>
+          
+          <div class="author-bio-section">
+            <div class="container">
+              <div class="author-bio-card">
+                <div class="author-bio-avatar">
+                  <img id="bio-avatar" src="https://via.placeholder.com/100" alt="Avatar do autor">
+                </div>
+                
+                <div class="author-bio-content">
+                  <h3 id="bio-name">Nome do Autor</h3>
+                  <p id="bio-text">Biografia do autor...</p>
+                  <div class="author-links">
+                    <a href="#" class="author-link">Ver Perfil</a>
+                    <a href="#" class="author-link">Todos os Artigos</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="related-articles-section">
+            <div class="container">
+              <h2 class="section-title">Artigos Relacionados</h2>
+              
+              <div class="related-articles-grid" id="related-articles">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-logo">
+              <h3>Express<span>Ink</span></h3>
+              <p>Um espaço para histórias significativas e design reflexivo.</p>
+            </div>
+            
+            <div class="footer-links">
+              <div class="footer-col">
+                <h4>Navegação</h4>
+                <ul>
+                  <li><a href="/">Página Inicial</a></li>
+                  <li><a href="articles.html">Artigos</a></li>
+                  <li><a href="about.html">Sobre</a></li>
+                </ul>
+              </div>
+              
+              <div class="footer-col">
+                <h4>Contato</h4>
+                <ul>
+                  <li><a href="mailto:contato@expressink.com">Email</a></li>
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#">Instagram</a></li>
+                </ul>
+              </div>
+              
+              <div class="footer-col">
+                <h4>Legal</h4>
+                <ul>
+                  <li><a href="#">Termos de Uso</a></li>
+                  <li><a href="#">Política de Privacidade</a></li>
+                  <li><a href="#">Cookies</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="footer-bottom">
+            <p>&copy; 2023 ExpressInk. Todos os direitos reservados.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/article-detail.js"></script>
+  </body>
+</html>

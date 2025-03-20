@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ExpressInk - Blog Minimalista</title>
+    <meta
+      name="description"
+      content="Uma plataforma de blog belamente elaborada, focada em clareza, simplicidade e na arte de contar histórias."
+    />
+    <meta name="author" content="ExpressInk" />
+    <meta property="og:image" content="/og-image.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+  </head>
+
+  <body>
+    <div class="app-container">
+      <header class="navbar">
+        <div class="navbar-container">
+          <a href="index.html" class="logo">Express<span>Ink</span></a>
+          <nav class="nav-links">
+            <a href="index.html" class="nav-link active">Início</a>
+            <a href="articles.html" class="nav-link">Artigos</a>
+            <a href="about.html" class="nav-link">Sobre</a>
+          </nav>
+          <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </header>
+
+      <main>
+        <!-- Seção Hero -->
+        <section class="hero">
+          <div class="container">
+            <div class="hero-content">
+              <span class="badge">Plataforma de Blog Minimalista</span>
+              <h1 class="hero-title">Express<span>Ink</span></h1>
+              <p class="hero-description">
+                Uma plataforma de blog belamente elaborada, focada em clareza,
+                simplicidade e na arte de contar histórias.
+              </p>
+              <div class="hero-buttons">
+                <a href="articles.html" class="btn btn-primary"
+                  >Explorar Artigos</a
+                >
+                <a href="about.html" class="btn btn-secondary"
+                  >Sobre o ExpressInk</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Seção de Artigo em Destaque -->
+        <section class="featured-section">
+          <div class="container">
+            <div class="section-header">
+              <h2 class="section-title">Artigo em Destaque</h2>
+              <a href="articles.html" class="section-link">
+                Ver todos <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+
+            <div class="featured-article">
+              <div class="featured-article-image">
+                <img
+                  src="https://images.unsplash.com/photo-1679678691006-0ad24fecb769?q=80&w=2519&auto=format&fit=crop"
+                  alt="Artigo em destaque"
+                />
+              </div>
+              <div class="featured-article-content">
+                <span class="badge">Design</span>
+                <h3 class="article-title">
+                  O Impacto do Design Minimalista na Experiência do Usuário
+                  Digital
+                </h3>
+                <div class="article-meta">
+                  <span><i class="fas fa-user"></i> Alexandre Moreira</span>
+                  <span><i class="fas fa-calendar"></i> 15 de Maio, 2023</span>
+                  <span><i class="fas fa-clock"></i> 8 min de leitura</span>
+                </div>
+                <p class="article-excerpt">
+                  Explore como o minimalismo no design digital não apenas
+                  melhora a estética, mas também a usabilidade e a eficácia
+                  geral das interfaces modernas.
+                </p>
+                <a href="article.html?id=1" class="btn btn-outline"
+                  >Ler Artigo Completo</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Seção de Artigos Recentes -->
+        <section class="recent-section">
+          <div class="container">
+            <div class="section-header">
+              <h2 class="section-title">Artigos Recentes</h2>
+              <a href="articles.html" class="section-link">
+                Ver todos <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+
+            <div class="articles-grid" id="recent-articles">
+            
+            </div>
+          </div>
+        </section>
+
+       
+        <section class="newsletter-section">
+          <div class="container">
+            <div class="newsletter-content">
+              <span class="badge">Fique Atualizado</span>
+              <h2 class="section-title">Assine Nossa Newsletter</h2>
+              <p class="newsletter-description">
+                Receba os artigos, recursos e insights mais recentes diretamente
+                na sua caixa de entrada.
+              </p>
+
+              <form class="newsletter-form">
+                <input type="email" placeholder="Digite seu email" required />
+                <button type="submit" class="btn btn-primary">Assinar</button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-logo">
+              <h3>Express<span>Ink</span></h3>
+              <p>Um espaço para histórias significativas e design reflexivo.</p>
+            </div>
+
+            <div class="footer-links">
+              <div class="footer-col">
+                <h4>Navegação</h4>
+                <ul>
+                  <li><a href="index.html">Página Inicial</a></li>
+                  <li><a href="articles.html">Artigos</a></li>
+                  <li><a href="about.html">Sobre</a></li>
+                </ul>
+              </div>
+
+              <div class="footer-col">
+                <h4>Contato</h4>
+                <ul>
+                  <li><a href="mailto:contato@expressink.com">Email</a></li>
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#">Instagram</a></li>
+                </ul>
+              </div>
+
+              <div class="footer-col">
+                <h4>Legal</h4>
+                <ul>
+                  <li><a href="#">Termos de Uso</a></li>
+                  <li><a href="#">Política de Privacidade</a></li>
+                  <li><a href="#">Cookies</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <p>&copy; 2023 ExpressInk. Todos os direitos reservados.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
