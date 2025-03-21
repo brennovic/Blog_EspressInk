@@ -70,7 +70,7 @@ const articlesData = [
     id: "2",
     title: "Estratégias Avançadas de SEO para Blog em 2023",
     excerpt: "Descubra as técnicas mais eficazes para otimizar seu blog para mecanismos de busca e aumentar seu tráfego orgânico em 2023.",
-    coverImage: "https://images.unsplash.com/photo-1432888622747-4eb9a8f5f01e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+    coverImage: "https://th.bing.com/th/id/R.792594b9fc4b77a849cd760ace9c1bb5?rik=ROuOh%2fkk3fI1ng&pid=ImgRaw&r=0",
     category: "Marketing",
     publishedAt: "2023-06-23T09:00:00Z",
     readTime: 10,
@@ -197,7 +197,7 @@ const articlesData = [
     id: "3",
     title: "Inteligência Artificial Generativa: Transformando a Criação de Conteúdo",
     excerpt: "Explore como ferramentas de IA generativa como GPT-4 e DALL-E estão revolucionando o processo criativo e transformando fluxos de trabalho em diversas indústrias.",
-    coverImage: "https://images.unsplash.com/photo-1677442135968-6b7d105f87f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80",
+    coverImage: "https://img.olhardigital.com.br/wp-content/uploads/2023/03/shutterstock_2118695231.jpg",
     category: "Tecnologia",
     publishedAt: "2023-07-05T08:30:00Z",
     readTime: 12,
@@ -220,7 +220,7 @@ const articlesData = [
         <li><strong>GitHub Copilot</strong> - assistente de programação que gera e sugere código.</li>
       </ul>
 
-      <img src="https://images.unsplash.com/photo-1684391945738-3500b7983f89?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&h=600&q=80" alt="Representação de inteligência artificial generativa">
+      <img src="https://www.avantia.com.br/wp-content/uploads/2022/02/banner_blog-16-1-1024x536.png" alt="Representação de inteligência artificial generativa">
 
       <h2>Transformando processos criativos</h2>
 
@@ -758,5 +758,5 @@ const articlesData = [
   }
 ];
 
-// Make this variable available to other scripts
+
 window.articlesData = articlesData;

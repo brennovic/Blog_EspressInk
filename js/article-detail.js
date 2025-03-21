@@ -5,12 +5,12 @@ document.addEventListener('DOMContentLoaded', function() {
   const articleId = urlParams.get('id');
   
   if (!articleId) {
-    window.location.href = '/404.html';
+    window.location.href = '404.html';
     return;
   }
   
   // Fetch the articles data
-  fetch('/js/articles-data.js')
+  fetch('js/articles-data.js')
     .then(response => response.text())
     .then(data => {
       // Execute the data as a script to get the articlesData variable
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const article = articlesData.find(a => a.id === articleId);
         
         if (!article) {
-          window.location.href = '/404.html';
+          window.location.href = '404.html';
           return;
         }
         
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
     })
     .catch(error => {
       console.error('Error loading article data:', error);
-      window.location.href = '/404.html';
+      window.location.href = '404.html';
     });
 });
 
@@ -115,7 +115,7 @@ function loadRelatedArticles(currentArticle) {
       <div class="article-card-content">
         <span class="badge">${article.category}</span>
         <h3 class="article-card-title">
-          <a href="/article.html?id=${article.id}">${article.title}</a>
+          <a href="article.html?id=${article.id}">${article.title}</a>
         </h3>
         <p>${article.excerpt}</p>
         <div class="article-card-meta">

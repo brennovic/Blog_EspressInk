@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   let articlesData = []; // Will be populated from articles-data.js
   
   // Fetch the articles data
-  fetch('/js/articles-data.js')
+  fetch('js/articles-data.js')
     .then(response => response.text())
     .then(data => {
       // Execute the data as a script to get the articlesData variable
@@ -69,7 +69,7 @@ function displayArticlesPage(articles, container, append = false) {
       <div class="article-card-content">
         <span class="badge">${article.category}</span>
         <h3 class="article-card-title">
-          <a href="/article.html?id=${article.id}">${article.title}</a>
+          <a href="article.html?id=${article.id}">${article.title}</a>
         </h3>
         <p>${article.excerpt}</p>
         <div class="article-card-meta">
